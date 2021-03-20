@@ -111,6 +111,8 @@ img {
 
 header {
   border-bottom: 1px solid #ececec;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 header .studio {
@@ -122,8 +124,6 @@ header .studio {
 .navigation {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .nav-link {
   color: var(--title-color);
@@ -186,13 +186,17 @@ header .studio {
   color: var(--main-bg-color);
 }
 
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+
   /*min-height: 100vh;*/
 }
 /*Стиль для кнопки Заказать услуги*/
@@ -322,7 +326,7 @@ header .studio {
 }
 
 .project-card {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 
 .project-title {
@@ -347,7 +351,7 @@ header .studio {
   margin-top: 20px;
 }
 
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
